@@ -8,9 +8,10 @@ const items = [
 export const Header = () => {
   return (
     <header>
-      <h1>Title</h1>
+      <h1>Iwato</h1>
       <nav>
-        {items.map(({ href, label }) => {
+        {
+        items.map(({ href, label }) => {
           return (
             <Link key={href} href={href}>
               <a style={{ display: "inline-block", padding: 12 }}>{label}</a>

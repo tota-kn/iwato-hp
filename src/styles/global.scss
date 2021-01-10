@@ -3,6 +3,10 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
+header {
+  border-bottom: 1px solid gray;
+}
 main {
-  background-color: peachpuff;
+  background-color: white;
 }
