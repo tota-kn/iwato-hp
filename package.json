@@ -10,7 +10,8 @@
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "type-check": "tsc --pretty --noEmit",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test-all": "yarn lint && yarn type-check && yarn test",
+    "export": "next export"
   },
   "husky": {
     "hooks": {
@@ -29,7 +30,7 @@
     ]
   },
   "prettier": {
-    "printWidth": 120
+    "printWidth": 120       
   },
   "dependencies": {
     "next": "10.0.5",
