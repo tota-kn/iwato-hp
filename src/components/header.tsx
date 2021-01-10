@@ -10,8 +10,7 @@ export const Header = () => {
     <header>
       <h1>Iwato</h1>
       <nav>
-        {
-        items.map(({ href, label }) => {
+        {items.map(({ href, label }) => {
           return (
             <Link key={href} href={href}>
               <a style={{ display: "inline-block", padding: 12 }}>{label}</a>
